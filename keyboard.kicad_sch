@@ -1335,8 +1335,16 @@
 		(uuid "1ed4bd49-c580-4399-b830-b8877a42361e")
 	)
 	(no_connect
+		(at 114.3 129.54)
+		(uuid "27a03cb1-f213-45fe-a2ce-cd5ca866d4b8")
+	)
+	(no_connect
 		(at 198.12 140.97)
 		(uuid "33aab642-feeb-4d4d-b853-e4ecbc800348")
+	)
+	(no_connect
+		(at 114.3 132.08)
+		(uuid "340c7249-55f7-4c7b-ad1f-f079d523d501")
 	)
 	(no_connect
 		(at 198.12 139.7)
@@ -1349,6 +1357,14 @@
 	(no_connect
 		(at 182.88 139.7)
 		(uuid "4a300a5d-0983-4144-be60-4311ba480d2d")
+	)
+	(no_connect
+		(at 114.3 130.81)
+		(uuid "5bbe1144-d2f7-4bda-9e37-1dbb94f55c73")
+	)
+	(no_connect
+		(at 114.3 133.35)
+		(uuid "72aaddab-5699-4169-93d5-fd3563000de5")
 	)
 	(no_connect
 		(at 167.64 124.46)
@@ -1428,6 +1444,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 160.02) (xy 217.17 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1095dc10-143f-4527-9ff9-624a614f441f")
+	)
+	(wire
+		(pts
 			(xy 208.28 153.67) (xy 213.36 153.67)
 		)
 		(stroke
@@ -1445,16 +1471,6 @@
 			(type default)
 		)
 		(uuid "1b973134-33cc-43d1-b53a-ed810abbc817")
-	)
-	(wire
-		(pts
-			(xy 129.54 160.02) (xy 217.17 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd0675a-7a80-4683-a5c0-ee46fdb5695f")
 	)
 	(wire
 		(pts
@@ -2338,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 127) (xy 114.3 166.37)
+			(xy 114.3 127) (xy 114.3 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-SAMD21-RP2040-14P-2.54-21X17.8MM (Seeeduino XIAO)"
+		(property "Footprint" "XIAO_PCB:MOUDLE14P-2.54-21X17.8MM"
 			(at 128.27 60.96 0)
 			(effects
 				(font
